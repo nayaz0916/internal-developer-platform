@@ -8,7 +8,7 @@ metadata:
     - terraform
     - infrastructure
   annotations:
-    github.com/project-slug: yourusername/devops-portfolio/kubernetes-platform
+    github.com/project-slug: nayaz0916/k8s-platform-lab
     argocd/app-name: kubernetes-platform
 spec:
   type: service
@@ -28,7 +28,7 @@ metadata:
     - cicd
     - github-actions
   annotations:
-    github.com/project-slug: yourusername/devops-portfolio/gitops-cicd
+    github.com/project-slug: nayaz0916/gitops-pipeline-lab
     argocd/app-name: gitops-cicd
 spec:
   type: service
@@ -48,7 +48,7 @@ metadata:
     - monitoring
     - sre
   annotations:
-    github.com/project-slug: yourusername/devops-portfolio/sre-observability
+    github.com/project-slug: nayaz0916/sre-observability-lab
     argocd/app-name: sre-observability
 spec:
   type: service
@@ -68,7 +68,7 @@ metadata:
     - backstage
     - portal
   annotations:
-    github.com/project-slug: yourusername/devops-portfolio/internal-developer-platform
+    github.com/project-slug: nayaz0916/developer-portal-lab
 spec:
   type: service
   lifecycle: production
