@@ -8,7 +8,7 @@ metadata:
     - terraform
     - infrastructure
   annotations:
-    github.com/project-slug: nayaz0916/k8s-platform-lab
+    github.com/project-slug: nayaz0916/production-kubernetes-platform
     argocd/app-name: kubernetes-platform
 spec:
   type: service
@@ -28,7 +28,7 @@ metadata:
     - cicd
     - github-actions
   annotations:
-    github.com/project-slug: nayaz0916/gitops-pipeline-lab
+    github.com/project-slug: nayaz0916/gitops-devsecops-platform
     argocd/app-name: gitops-cicd
 spec:
   type: service
@@ -48,7 +48,7 @@ metadata:
     - monitoring
     - sre
   annotations:
-    github.com/project-slug: nayaz0916/sre-observability-lab
+    github.com/project-slug: nayaz0916/sre-observability-platform
     argocd/app-name: sre-observability
 spec:
   type: service
@@ -68,7 +68,7 @@ metadata:
     - backstage
     - portal
   annotations:
-    github.com/project-slug: nayaz0916/developer-portal-lab
+    github.com/project-slug: nayaz0916/internal-developer-platform
 spec:
   type: service
   lifecycle: production

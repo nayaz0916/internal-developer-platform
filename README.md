@@ -1,6 +1,6 @@
 # Internal Developer Platform
 
-A Backstage-based internal developer platform that unifies GitHub repositories, CI/CD pipelines, Argo CD deployments, and Kubernetes resources into a single developer portal.
+Enterprise Backstage-based internal developer platform that unifies GitHub repositories, CI/CD pipelines, Argo CD deployments, and Kubernetes resources into a single developer portal for improved developer experience.
 
 ## Architecture
 
